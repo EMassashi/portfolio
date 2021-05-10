@@ -1,0 +1,24 @@
+.contact {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient( to bottom, rgba($primary-color, 0.1), rgba($primary-color, 0.9)), url("https://preview.redd.it/66ic9c791ih61.png?width=960&crop=smart&auto=webp&s=cb8326c998d2eb6a3452fee6722e739ed51d08da") center top;
+    background-size: cover;
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+    }
+    .social-icons {
+        position: initial;
+        margin-top: 2rem;
+    }
+}
