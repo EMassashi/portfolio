@@ -33,9 +33,6 @@
             font-size: 3rem;
         }
     }
-    .contact__list {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @include media-lg {
@@ -43,9 +40,6 @@
         &__items {
             grid-template-columns: repeat(3, 1fr);
         }
-    }
-    .contact__list {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
 
